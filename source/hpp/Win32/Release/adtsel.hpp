@@ -2,7 +2,7 @@
 // Copyright (c) 1995, 2015 by Embarcadero Technologies, Inc.
 // All rights reserved
 
-// (DO NOT EDIT: machine generated header) 'AdTSel.pas' rev: 29.00 (Windows)
+// (DO NOT EDIT: machine generated header) 'AdTSel.pas' rev: 30.00 (Windows)
 
 #ifndef AdtselHPP
 #define AdtselHPP
@@ -18,7 +18,6 @@
 #include <Winapi.Messages.hpp>
 #include <System.SysUtils.hpp>
 #include <System.Classes.hpp>
-#include <Vcl.Controls.hpp>
 #include <Vcl.Forms.hpp>
 #include <Vcl.Dialogs.hpp>
 #include <Vcl.StdCtrls.hpp>
@@ -30,6 +29,7 @@
 #include <OoMisc.hpp>
 #include <AdSelCom.hpp>
 #include <LNSWin32.hpp>
+#include <Vcl.Controls.hpp>
 
 //-- user supplied -----------------------------------------------------------
 

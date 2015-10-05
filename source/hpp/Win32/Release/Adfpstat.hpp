@@ -2,7 +2,7 @@
 // Copyright (c) 1995, 2015 by Embarcadero Technologies, Inc.
 // All rights reserved
 
-// (DO NOT EDIT: machine generated header) 'AdFPStat.pas' rev: 29.00 (Windows)
+// (DO NOT EDIT: machine generated header) 'AdFPStat.pas' rev: 30.00 (Windows)
 
 #ifndef AdfpstatHPP
 #define AdfpstatHPP
@@ -19,10 +19,10 @@
 #include <System.Classes.hpp>
 #include <Vcl.Forms.hpp>
 #include <Vcl.Controls.hpp>
-#include <Vcl.StdCtrls.hpp>
 #include <Vcl.Dialogs.hpp>
 #include <Vcl.Buttons.hpp>
 #include <AdFaxPrn.hpp>
+#include <Vcl.StdCtrls.hpp>
 
 //-- user supplied -----------------------------------------------------------
 

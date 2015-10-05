@@ -2,7 +2,7 @@
 // Copyright (c) 1995, 2015 by Embarcadero Technologies, Inc.
 // All rights reserved
 
-// (DO NOT EDIT: machine generated header) 'AdMdmDlg.pas' rev: 29.00 (Windows)
+// (DO NOT EDIT: machine generated header) 'AdMdmDlg.pas' rev: 30.00 (Windows)
 
 #ifndef AdmdmdlgHPP
 #define AdmdmdlgHPP
@@ -19,15 +19,15 @@
 #include <System.SysUtils.hpp>
 #include <System.Classes.hpp>
 #include <Vcl.Graphics.hpp>
-#include <Vcl.Controls.hpp>
 #include <Vcl.Forms.hpp>
-#include <Vcl.Dialogs.hpp>
+#include <Vcl.Controls.hpp>
 #include <OoMisc.hpp>
 #include <AdMdm.hpp>
 #include <Vcl.StdCtrls.hpp>
 #include <Vcl.Buttons.hpp>
 #include <Vcl.ExtCtrls.hpp>
 #include <Vcl.ImgList.hpp>
+#include <System.ImageList.hpp>
 
 //-- user supplied -----------------------------------------------------------
 

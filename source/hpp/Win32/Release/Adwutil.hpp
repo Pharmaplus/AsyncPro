@@ -2,7 +2,7 @@
 // Copyright (c) 1995, 2015 by Embarcadero Technologies, Inc.
 // All rights reserved
 
-// (DO NOT EDIT: machine generated header) 'AdWUtil.pas' rev: 29.00 (Windows)
+// (DO NOT EDIT: machine generated header) 'AdWUtil.pas' rev: 30.00 (Windows)
 
 #ifndef AdwutilHPP
 #define AdwutilHPP
@@ -74,7 +74,6 @@ typedef TAliasArray *PAliasArray;
 
 typedef THostEnt *PHostEnt;
 
-#pragma pack(push,1)
 struct DECLSPEC_DRECORD THostEnt
 {
 public:
@@ -84,7 +83,6 @@ public:
 	short h_length;
 	TAddrArray *h_addr_list;
 };
-#pragma pack(pop)
 
 
 typedef TNetEnt *PNetEnt;
@@ -133,6 +131,8 @@ typedef TSockAddrIn *PSockAddrIn;
 #pragma pack(push,1)
 struct DECLSPEC_DRECORD TSockAddrIn
 {
+	
+public:
 	union
 	{
 		struct 
