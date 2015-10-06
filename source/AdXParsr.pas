@@ -914,10 +914,10 @@ var
 begin
   DocCount := FDocStack.Count;
   if (DocCount = 0) then
-    Result := FFilter.Eof
+    Result := FFilter.EndOfFile
   else begin
     Result := False;
-    while FFilter.EOF do begin
+    while FFilter.EndOfFile do begin
       if (DocCount > 0) then begin
         TheStream := FFilter.Stream;
         FFilter.Free;
@@ -1544,7 +1544,7 @@ begin
     TempChar := ReadChar(False);
     if (TempChar = '<') or
        (TempChar = '&') or
-       (FFilter.EOF) then
+       (FFilter.EndOfFile) then
       Break
     else begin
       if ((CurrLength + 2) > BuffLength) then begin
@@ -1661,7 +1661,7 @@ var
 begin
   Found := TryRead(s);
   while (not Found) and
-        (not FFilter.EOF) do begin
+        (not FFilter.EndOfFile) do begin
     DataBufferAppend(ReadChar(True));
     Found := TryRead(s);
   end;
@@ -2137,12 +2137,12 @@ end;
 {--------}
 procedure TApdParser.SkipWhitespace(aNextDoc : Boolean);
 begin
-  while (not FFilter.Eof) and
+  while (not FFilter.EndOfFile) and
         (IsWhitespace(ReadChar(False))) do
     SkipChar;
  if aNextDoc then begin
    IsEndDocument;
-   while (not FFilter.Eof) and
+   while (not FFilter.EndOfFile) and
          (IsWhitespace(ReadChar(False))) do
      SkipChar;
  end;

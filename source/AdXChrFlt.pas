@@ -114,7 +114,7 @@ type
       property Format : TApdStreamFormat
          read FFormat
          write csSetFormat;
-      property EOF : Boolean
+      property EndOfFile : Boolean
          read FEOF;
     public
       procedure SkipChar;

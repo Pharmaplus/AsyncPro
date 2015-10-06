@@ -11,7 +11,7 @@ USEFORMNS("..\..\source\AdStatEd.pas", Adstated, frmStateEdit);
 #pragma package(smart_init)
 //---------------------------------------------------------------------------
 
-//   Package-Quelltext.
+//   Package source.
 //---------------------------------------------------------------------------
 
 

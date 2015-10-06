@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2015/10/06 13:01:50.000.195,=D:\Mis Documentos\Embarcadero\Studio\Projects\Package1PCH1.h</Transaction>
+    <Transaction>2015/10/06 13:01:50.000.190,=rtl.bpi</Transaction>
+    <Transaction>2015/10/06 13:01:58.000.075,D:\Mis Documentos\Embarcadero\Studio\Projects\Package1.cbproj=D:\Mis Documentos\Embarcadero\Studio\Projects\AsyncProCD.cbproj</Transaction>
+    <Transaction>2015/10/06 13:01:58.000.067,D:\Mis Documentos\Embarcadero\Studio\Projects\Package1PCH1.h=D:\Mis Documentos\Embarcadero\Studio\Projects\AsyncProCDPCH1.h</Transaction>
+    <Transaction>2015/10/06 13:02:30.000.613,D:\Mis Documentos\Embarcadero\Studio\Projects\AsyncProCD.cbproj=C:\Temp\AsyncPro\packages\CBuilder\AsyncProCD.cbproj</Transaction>
+    <Transaction>2015/10/06 13:05:15.000.979,=vclx.bpi</Transaction>
+    <Transaction>2015/10/06 13:05:15.000.912,=designide.bpi</Transaction>
+    <Transaction>2015/10/06 13:05:15.000.940,=vcl.bpi</Transaction>
+    <Transaction>2015/10/06 13:05:15.000.955,=xmlrtl.bpi</Transaction>
+    <Transaction>2015/10/06 13:05:15.000.747,=c:\temp\asyncpro\source\AproReg.dcr</Transaction>
+    <Transaction>2015/10/06 13:05:15.000.642,=C:\Temp\AsyncPro\source\AdPropEd.pas</Transaction>
+    <Transaction>2015/10/06 13:05:15.000.736,=C:\Temp\AsyncPro\source\AproReg.pas</Transaction>
+    <Transaction>2015/10/06 13:05:15.000.604,=C:\Temp\AsyncPro\source\Adpedit0.pas</Transaction>
+    <Transaction>2015/10/06 13:05:15.000.627,=C:\Temp\AsyncPro\source\Adpeditt.pas</Transaction>
+    <Transaction>2015/10/06 13:05:15.000.558,=C:\Temp\AsyncPro\source\adpacked.pas</Transaction>
+    <Transaction>2015/10/06 13:05:15.000.514,=C:\Temp\AsyncPro\source\adabout.pas</Transaction>
+    <Transaction>2015/10/06 13:05:15.000.674,=C:\Temp\AsyncPro\source\AdStatE0.pas</Transaction>
+    <Transaction>2015/10/06 13:05:15.000.968,=vclactnband.bpi</Transaction>
+    <Transaction>2015/10/06 13:05:15.000.925,=vclimg.bpi</Transaction>
+    <Transaction>2015/10/06 13:05:15.000.710,=C:\Temp\AsyncPro\source\AdStatEd.pas</Transaction>
+  </Transactions>
+</BorlandProject>
